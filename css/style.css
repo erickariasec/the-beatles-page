@@ -56,7 +56,6 @@ nav ul li a:hover {
 }
 
 .get-back-disney-plus {
-    padding: 2vh;
     margin-bottom: 70px;
     color: white;
     font-family: 'Mukta', sans-serif;
@@ -64,7 +63,7 @@ nav ul li a:hover {
     text-align: justify;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: wrap;
 }
 
@@ -126,4 +125,18 @@ footer {
     padding: 50px;
     color: #fff;
     text-align: center;
+}
+
+@media (max-width: 854px) {
+    .description-get-back {
+        max-width: 80%;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 588px) {
+    .video-get-back {
+        width: 350px;
+        height: 315px;
+    }
 }
