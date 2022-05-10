@@ -93,7 +93,7 @@ nav ul li a:hover {
     background-color: #111;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: wrap;
 }
 
@@ -138,5 +138,23 @@ footer {
     .video-get-back {
         width: 350px;
         height: 315px;
+    }
+}
+
+@media (max-width: 440px) {
+    .spotify-songs {
+        width: 350px;
+        margin: auto;
+        border-radius: 15px;
+        color: #fff;
+        background-color: #111;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    .spotify-songs article iframe {
+        width: 250px;
+        height: 250px;
     }
 }
